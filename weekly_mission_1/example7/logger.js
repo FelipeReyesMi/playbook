@@ -38,4 +38,3 @@ export class Logger {
     console.log(`[${this.name}] ${message}`)
   }
 }
-
