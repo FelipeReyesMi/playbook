@@ -7,10 +7,10 @@ const repo = {
     forks: 299,
     issues_open: 10,
     issues_close: 10,
-    getTotalIssues: function(){
+    getTotalIssues: function(){ //Declaracion de la funcion
       return this.issues_open + this.issues_close
     },
-    getGeneralInfo: function(){
+    getGeneralInfo: function(){ //Declaracion de la funcion
       return `This repository ${this.name} was created by ${this.author}`
     }
    }
@@ -29,10 +29,10 @@ const repo = {
     author: "FelipeReyes",
     dateCreated: "2022-02-15",
     lastUpdate: "2022-03-02",
-    getTitleAndAuthor: function(){
+    getTitleAndAuthor: function(){ //Declaracion de la funcion
       return `The repository ${this.Title} was created by ${this.author} `
     },
-    getGeneralInfo: function(){
+    getGeneralInfo: function(){ //Declaracion de la funcion
       return `This repository was created by ${this.author} and ${this.repositoryNameAssociated}`
     }
    }
@@ -49,10 +49,10 @@ const repo = {
     dateCreated: "2020-04-18",
     status: "Commit",
     repositoryNameAssociated: "carlosgilmar",
-    getStatus: function(){
+    getStatus: function(){ //Declaracion de la funcion
       return `The status of the repository is ${this.status}`
     },
-    getTitleAndAutor: function(){
+    getTitleAndAutor: function(){ //Declaracion de la funcion
       return `The repository ${this.Title} was created by ${this.repositoryNameAssociated}`
     }
    }
