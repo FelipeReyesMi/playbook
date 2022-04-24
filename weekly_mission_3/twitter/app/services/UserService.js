@@ -1,8 +1,8 @@
-const persona = require('./../models/User')
+const User = require('./../models/User')
 
 class UserService {
-    static create(id, username, name){
-      return new persona(id, username, name, "Sin bio")
+    static create(id, username, name) {
+        return new User(id, username, name, "Sin bio")
     }
-  }
-module.esports = UserService
+}
+module.exports = UserService
