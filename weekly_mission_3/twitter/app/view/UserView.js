@@ -1,9 +1,9 @@
 const UserService = require('./../services/UserService')
 
-class UserView {
-    static createUser(payload) {
-        if (payload === null) {
-            console.log("Error es null")
+class UserView {//Creacion de la clase 
+    static createUser(payload) {//Creacion del metodo
+        if (payload === null) {//Condicion, si payload es varlor null pasa hacer el if
+            console.log("Error es null")//Imprime el mensaje de error
             return {
                 error: "El payload no existe."
             }
@@ -16,5 +16,6 @@ class UserView {
         }
     }
 }
+
 
 module.exports = UserView
