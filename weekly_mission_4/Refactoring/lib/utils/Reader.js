@@ -1,6 +1,4 @@
 const fs = require("fs");
-
-
 class Reader {
 
     static readJsonFile(path) {
@@ -8,6 +6,4 @@ class Reader {
         return JSON.parse(rawdata);
     }
 }
-const lista = Reader.readJsonFile("explorers.json")
-console.log(lista)
 module.exports = Reader
