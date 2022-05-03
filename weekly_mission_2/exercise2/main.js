@@ -88,6 +88,6 @@ console.log("\n validación si al menos uno de los explorers tiene la propiedad 
 const explorer_exercisesFinished = explorers.some((my_explorer_in_list) => my_explorer_in_list.missions.frontend.exercisesFinished === true );
 console.log(explorer_exercisesFinished );
 ////////////////////////////////////////////////////////
-console.log("\n validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true \n")
+console.log("\n validación si todos los explorers tiene la propiedad isFinished en onboarding \n")
 const explorer_isFinished = explorers.every((my_explorer_in_list) => my_explorer_in_list.missions.onboarding.isFinished === true );
 console.log(explorer_isFinished );
